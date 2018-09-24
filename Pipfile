@@ -1,0 +1,30 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+"pybars3" = "*"
+requests = "*"
+figgypy = "*"
+colorlog = "*"
+google-api-python-client = "*"
+"oauth2client" = "*"
+pipenv = "*"
+ebaysdk = "*"
+mongoengine = "*"
+flask = "*"
+flask-restful = "*"
+flask-graphql = "*"
+flask-restful-swagger = "*"
+"flask-restful-swagger-2" = "*"
+sqlalchemy = "*"
+gunicorn = "*"
+flask-ask = "==0.8.9"
+click = "*"
+
+[dev-packages]
+twine = "*"
+
+[requires]
+python_version = "3.7"

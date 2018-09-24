@@ -1,0 +1,8 @@
+.idea
+*.iml
+
+build
+dist
+*egg-*
+
+config.example.yml
