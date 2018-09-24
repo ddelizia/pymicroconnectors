@@ -1,6 +1,6 @@
 import pymicroconnectors.flask as flask
 import pymicroconnectors.config as config
-from flask_ask import Ask
+from flask_assistant import Assistant
 
 
 api = None
@@ -10,4 +10,4 @@ def init():
         flask.init()
 
     global api
-    api = Ask(flask.app, f"/{config.get_value('flask.ask.context')}")
+    api = Assistant(flask.app, f"/{config.get_value('flask.assistant.context')}")

@@ -22,6 +22,7 @@ sqlalchemy = "*"
 gunicorn = "*"
 flask-ask = "==0.8.9"
 click = "*"
+flask-assistant = "*"
 
 [dev-packages]
 twine = "*"
